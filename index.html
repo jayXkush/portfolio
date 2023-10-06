@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jay-Portfolio</title>
+    <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(2, 2, 37);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(4, 4, 66);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+            color: rgb(155, 155, 218);
+            font-size: 1.01rem;
+            
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .firstsection{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 80px 0;
+        }
+        .firstsection > div{
+            width: 30%;
+            
+        }
+        .leftsection{
+            font-size: 3rem;
+            
+            
+        }
+        .rightsection img{
+            width: 80%;
+        }
+        .purple{
+            color: blueviolet;
+        } 
+        #element{
+            color: blueviolet;
+        } 
+        footer{
+            background-color: rgb(68, 68, 117);
+            width: 100%;
+            align-items: end;
+        } 
+        .footer{
+            display: flex;
+            
+            
+        }
+        .footer-second{
+            margin-left: 290px;
+            margin-top: 3px;
+        }
+        .footer-third{
+            margin-left: 3px;
+            margin-top: 6px;
+        }
+        .phone{
+            margin-left: 220px;
+            margin-top: 3px;
+
+        }
+        .number{
+            margin-left: 250px;
+            
+        }
+            
+          
+        
+
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Jay's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Qualifications</a></li>
+                    <li><a href="/">Address</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div> 
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi,My name is <span class="purple">Jay Kushwaha</span>
+                
+                <div>and i am a Student of</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="bg.png" alt="">
+            </div>
+            
+        </section>
+       
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Jay's Portfolio</h3>
+
+            </div>
+            <div class="footer-second">
+                <h4>Address :</h4>
+                
+
+            </div>
+            <div class="footer-third">
+                <h5>10-F PKT-B8 JANTA FLATS MAYUR VIHAR PHASE-3 DELHI</h5>
+
+            </div>
+            <div class="footer-fourth">
+                <div class="phone"><h4>Phone Number: <span>8595950128</span></h4>
+                   
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['CSE at', 'DTU'],
+      typeSpeed: 200,
+    });
+  </script>
+</body>
+</html>
